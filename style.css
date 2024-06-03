@@ -1,0 +1,76 @@
+body{
+    background-color: #352E2D;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.progressie{
+    margin-bottom: 80px;
+}
+progress {
+    width: 400px;
+    height: 20px;
+    border-radius: 2px;
+  }
+
+.afbeelding{
+    position: relative;
+    
+}
+
+#imghout{ 
+    width: 300px;
+}
+
+#imgvuur{
+    position: absolute;
+    width: 300px;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+}
+
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.allbuttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+
+button{
+    background-color: #F58134;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid #352E2D;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button:hover{
+    border: solid 2pt #F58134;
+}
+
+button:active{
+    background-color: #352E2D;
+    border: solid 2pt #F58134;
+    color: #F58134;
+}
